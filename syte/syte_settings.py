@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 DEPLOYMENT_MODE = 'dev'
 COMPRESS_REVISION_NUMBER = '1.0'
@@ -51,6 +52,19 @@ INSTAGRAM_OAUTH_AUTHORIZE_URL = 'https://api.instagram.com/oauth/authorize'
 INSTAGRAM_OAUTH_ACCESS_TOKEN_URL = 'https://api.instagram.com/oauth/access_token'
 
 
+#Foursquare Integration
+FOURSQUARE_INTEGRATION_ENABLED = True
+FOURSQUARE_API_URL = 'https://api.foursquare.com/v2/'
+FOURSQUARE_ACCESS_TOKEN = '[ENTER FOURSQUARE ACCESS TOKEN HERE, SEE FOURSQUARE SETUP INSTRUCTIONS]'
+FOURSQUARE_SHOW_CURRENT_DAY = True
+
+FOURSQUARE_OAUTH_ENABLED = True
+FOURSQUARE_CLIENT_ID = '[ENTER FOURSQUARE CLIENT_ID HERE, SEE FOURSQUARE SETUP INSTRUCTIONS]'
+FOURSQUARE_CLIENT_SECRET = '[ENTER FOURSQUARE CLIENT_SECRET HERE, SEE FOURSQUARE SETUP INSTRUCTIONS]'
+FOURSQUARE_OAUTH_AUTHORIZE_URL = 'https://foursquare.com/oauth2/authenticate'
+FOURSQUARE_OAUTH_ACCESS_TOKEN_URL = 'https://foursquare.com/oauth2/access_token'
+
+
 #Google Analytics
 GOOGLE_ANALYTICS_TRACKING_ID = ''
 
@@ -81,7 +95,6 @@ BITBUCKET_API_URL = 'https://api.bitbucket.org/1.0/'
 # Forks count require one connection for each repository,
 # set BITBUCKET_SHOW_FORKS to false to disable
 BITBUCKET_SHOW_FORKS = False
-
 
 
 if DEPLOYMENT_MODE == 'dev':
