@@ -5,7 +5,7 @@
   <meta name="description" content="Personal blog of Derek Hardwick" />
   <meta name="keywords" content="Derek Hardwick, Amsterdam" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block pagetitle %}Derek [Derek Hardwick]{% endblock %}</title>
+  <title>{% block pagetitle %}Derek Hardwick{% endblock %}</title>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   {% if RSS_FEED_ENABLED %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ RSS_FEED_URL }}" />
@@ -24,7 +24,7 @@
       <a href="/" rel="home"></a>
     </div>
     <h1>Derek Hardwick</h1>
-    <h2>Just a guy...</h2>
+    <h2>Exploring the intersection of technology and sustainable development.</h2>
   </hgroup>
   <nav>
     <ul class="main-nav">
@@ -38,10 +38,11 @@
       <li><a href="http://soundcloud.com/guram-kajaia" id="soundcloud-link">Soundcloud</a></li>
       <li><a href="http://bitbucket.org/rigoneri" id="bitbucket-link">Bitbucket</a></li>
       {% endcomment %}
+      <li><a href="http://derekhardwick.com/resume/">Resume</a></li>
       <li><a href="mailto:derek@derekhardwick.com" id="contact-link">Contact</a></li>
     </ul>
   </nav>
-  <a href="https://github.com/rigoneri/syte" class="fork-me">Fork me on Github</a>
+<a href="http://derekhardwick.com" class="fork-me">&copy 2012 Derek Hardwick</a>
 </header>
 {% block main_section %}{% endblock %}
 <div class="mobile-nav">
